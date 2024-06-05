@@ -1,8 +1,9 @@
-import { sidebarIcons } from '@/lib/constants'
+import { sidebarIcons } from "@/lib/constants";
 
 const Sidebar = () => {
   return (
-    <div className='bg-white
+    <div
+      className="bg-white
     shadow-md
 
     py-5
@@ -12,14 +13,13 @@ const Sidebar = () => {
      flex-col 
      gap-5 
      items-center 
-     w-[5rem]'>
-        {
-            sidebarIcons.map((icon,index) => (
-                <icon.icon key={index} className='cursor-pointer'/>
-            ))
-        }
+     w-[5rem]"
+    >
+      {sidebarIcons.map((icon, index) => (
+        <icon.icon key={index} className="cursor-pointer" />
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;

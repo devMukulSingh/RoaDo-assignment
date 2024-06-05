@@ -1,7 +1,7 @@
-import { Button } from '@/components/ui/button'
-import { completedActivites } from '@/lib/constants';
-import React from 'react'
-import ActivityCard from './ActivityCard';
+import { Button } from "@/components/ui/button";
+import { completedActivites } from "@/lib/constants";
+import React from "react";
+import ActivityCard from "./ActivityCard";
 
 const CompletedActivities = () => {
   return (
@@ -29,6 +29,6 @@ const CompletedActivities = () => {
       ))}
     </div>
   );
-}
+};
 
-export default CompletedActivities
+export default CompletedActivities;

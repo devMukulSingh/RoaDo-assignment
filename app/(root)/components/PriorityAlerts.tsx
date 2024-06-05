@@ -26,14 +26,10 @@ const PriorityAlerts = () => {
         >
           High Priority alerts(4)
         </h1>
-        <Button
-            className="flex gap-2"
-            variant="ghost"
-        >
-            View All
-            <ChevronRight/>
+        <Button className="flex gap-2" variant="ghost">
+          View All
+          <ChevronRight />
         </Button>
-
       </div>
       <div
         className="

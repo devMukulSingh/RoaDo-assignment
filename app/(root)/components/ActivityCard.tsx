@@ -1,7 +1,7 @@
-import React, { FC } from 'react'
+import React, { FC } from "react";
 
-interface ActivityCardProps{
-    activity:string
+interface ActivityCardProps {
+  activity: string;
 }
 
 const ActivityCard: FC<ActivityCardProps> = ({ activity }) => {
@@ -12,4 +12,4 @@ const ActivityCard: FC<ActivityCardProps> = ({ activity }) => {
   );
 };
 
-export default ActivityCard
+export default ActivityCard;
